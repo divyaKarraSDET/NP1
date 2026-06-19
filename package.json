@@ -1,0 +1,26 @@
+{
+  "name": "np1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "webtest": "npx playwright test --grep @Regression",
+    "Smoke": "npx playwright test --@grep @Smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.0.0",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "allure": "^3.11.0",
+    "allure-playwright": "^3.10.0"
+  },
+  "dependencies": {
+    "csv-parse": "^6.2.1",
+    "xlsx": "^0.18.5"
+  }
+}

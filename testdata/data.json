@@ -1,0 +1,25 @@
+[
+    {
+        "prodName": "ZARA COAT 3",
+        "email": "shainug12345@gmail.com",
+        "password": "Shainug@12345",
+        "url": "https://rahulshettyacademy.com/client/#/auth/login",
+        "country": "Japan"
+    },
+    {
+         "prodName": "IPHONE 13 PRO",
+        "email": "shainug12345@gmail.com",
+        "password": "Shainug@12345",
+        "url": "https://rahulshettyacademy.com/client/#/auth/login",
+        "country": "Canada"
+        
+    },
+    {
+         "prodName": "ADIDAS ORIGINA",
+        "email": "shainug12345@gmail.com",
+        "password": "Shainug@12345",
+        "url": "https://rahulshettyacademy.com/client/#/auth/login",
+        "country": "Australia"
+        
+    }
+]
