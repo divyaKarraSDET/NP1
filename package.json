@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test",
-    "webtest": "npx playwright test --grep @Regression",
-    "Smoke": "npx playwright test --@grep @Smoke"
+    "webtest": "npx playwright test 16placeOrder.spec.ts",
+    "regression": "npx playwright test --grep @Regression",
+    "smoke": "npx playwright test --grep @Smoke",
+    "simpletest": "npx playwright test 06Alerts.spec.ts",
+    "basictest": "npx playwright test 02Clickactions.spec.ts",
+    "test": "npx playwright test"
   },
   "keywords": [],
   "author": "",

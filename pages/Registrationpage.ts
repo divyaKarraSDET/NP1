@@ -1,7 +1,7 @@
 import { type Page, expect } from '@playwright/test';
-import { pageObjects } from './pageObjects';
+import { PageObjects } from './PageObjects';
 
-export class Registrationpage extends pageObjects {
+export class RegistrationPage extends PageObjects {
 
     constructor(page: Page) {
         super(page);
@@ -39,3 +39,4 @@ export class Registrationpage extends pageObjects {
     };
 
 }
+

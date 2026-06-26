@@ -1,7 +1,7 @@
 import { expect, type Page, type Locator } from "@playwright/test";
-import { pageObjects } from './pageObjects';
+import { PageObjects } from './PageObjects';
 
-export class PlaceOrderpage extends pageObjects {
+export class PlaceOrderPage extends PageObjects {
 
     constructor(page: Page) {
         super(page);
@@ -69,3 +69,4 @@ export class PlaceOrderpage extends pageObjects {
 
 
 }
+

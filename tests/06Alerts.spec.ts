@@ -21,7 +21,7 @@ test('handling alerts', async ({page}) => {
 
      await page.getByText('Click for JS Alert').click();
 
-     await page.close();
+    // await page.close();
 
 
 })
@@ -47,7 +47,7 @@ test('Handling alerts', async ({page}) => {
      await page.getByText('Click for JS Confirm').click();
      console.log(await page.locator('#result').innerText());
 
-     await page.close();
+    // await page.close();
 
 
 })
@@ -72,7 +72,7 @@ test('Handling Alerts', async ({page}) => {
 
      await page.getByText('Click for JS Prompt').click();
      console.log(await page.locator('#result').innerText());
-     await page.close();
+     //await page.close();
 
 
 })

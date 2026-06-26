@@ -1,0 +1,3 @@
+I am a JS Confirm
+confirm
+You clicked: Ok

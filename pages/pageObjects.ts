@@ -1,7 +1,7 @@
 import { type Page, type Locator } from '@playwright/test';
 
 
-export class pageObjects {
+export class PageObjects {
 
     readonly page: Page;
     readonly registerLink: Locator;
