@@ -1,3 +1,0 @@
-I am a JS prompt
-prompt
-You entered: honey
