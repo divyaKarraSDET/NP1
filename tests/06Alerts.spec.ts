@@ -5,7 +5,7 @@ test('handling alerts', async ({page}) => {
 
      await page.goto('https://the-internet.herokuapp.com/javascript_alerts');
      await page.waitForLoadState('domcontentloaded');
-     await page.pause();
+     //await page.pause();
 
      page.on('dialog', async dialog => {
 
@@ -30,7 +30,7 @@ test('Handling alerts', async ({page}) => {
 
      await page.goto('https://the-internet.herokuapp.com/javascript_alerts');
      await page.waitForLoadState('domcontentloaded');
-     await page.pause();
+    // await page.pause();
 
      page.on('dialog', async dialog => {
 
@@ -56,7 +56,7 @@ test('Handling Alerts', async ({page}) => {
 
      await page.goto('https://the-internet.herokuapp.com/javascript_alerts');
      await page.waitForLoadState('domcontentloaded');
-     await page.pause();
+    // await page.pause();
 
      page.on('dialog', async dialog => {
 
